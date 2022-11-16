@@ -1,0 +1,90 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Helvetica";
+  }
+  
+  .signup-container{
+    transition: box-shadow .5s;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 800px;
+    height: 580px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: var(--borderWidth);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  
+  .ml{
+    height: 580px;
+    width: 450px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .left{
+    position: absolute;
+    float: left;
+  }
+  
+  .right{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    float: right;
+    right: 20px;
+  }
+  
+  form{
+    margin-left: 30px;
+  }
+  
+ 
+
+
+  .effect ~ .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: #4caf50; transition: 0.4s;}
+.effect:focus ~ .focus-border{width: 100%; transition: 0.4s; left: 0;}
+  
+  h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 73px;
+    margin-left: 100px;
+  }
+  
+  
+  p{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  
+  .log{
+    text-decoration: none;
+    margin: 30px;
+  }
+  
+  .button{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background: #0091FA;
+    border: 1px solid #FFFEFE;
+    border-radius: 12px;
+  }
+
+  .alr{
+    margin-top: 300px;
+    margin-left: 70px;
+    font-size: 15px;
+  }
+
+  .log{
+    margin-left: 110px;
+  }
+
+  

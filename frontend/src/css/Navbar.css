@@ -1,0 +1,32 @@
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.bi-twitter{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.nav-item{
+    margin-top: 18px;
+}
+
+.bi-person-fill{
+    height: 35px;
+    width: 35px;
+    margin-top: 55px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.btn-outline-danger{
+    margin-left: 0px;
+}

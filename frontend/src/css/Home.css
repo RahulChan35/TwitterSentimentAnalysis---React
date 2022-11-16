@@ -1,0 +1,58 @@
+
+.cont{
+    float: left;
+    width: 600px;
+}
+
+.head{
+    font-size: 30px;
+    color: #1da1f2;
+    margin-left: 0px;
+}
+
+.under{
+    width: 325px;
+    height: 3px;
+    background-color: #1da1f2;
+}
+
+.para{
+    font-size: 20px;
+}
+
+a>.btn2{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.twitter{
+    height: 350px;
+    width: 500px;
+    float: right;
+}
+
+.footer{
+    width: 1535px;
+    height: 200px;
+    background-color: #ebe9e9;
+}
+
+.facebook{
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.instagram{
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+}
+
+.linkedin{
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+}

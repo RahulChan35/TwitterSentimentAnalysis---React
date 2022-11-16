@@ -1,0 +1,116 @@
+
+*{
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+.login-container{
+  transition: box-shadow .5s;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 800px;
+  height: 580px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  border-radius: var(--borderWidth);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.ml{
+  height: 580px;
+  width: 450px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.left{
+  position: absolute;
+  float: left;
+}
+
+.right{
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  float: right;
+  right: 20px;
+}
+
+form{
+  margin-left: 30px;
+}
+
+form label {
+	font-size:14px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+form label,
+form input {
+	float:left;
+	clear:both;
+}
+
+form input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+  height: 45px;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color:cornflowerblue;
+}
+
+h2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 73px;
+  margin-left: 100px;
+}
+
+p{
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+a{
+  text-decoration: none;
+  margin: 50px;
+}
+
+a>.btn1{
+  margin-top: 10px;
+  background: #0091FA;
+  border: 1px solid #FFFEFE;
+  border-radius: 12px;
+  margin-left: 20px;
+}
+
+h4{
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.btn-danger{
+  background: #FE0C0C;
+  border: 1px solid #FFFFFF;
+  border-radius: 12px;
+}

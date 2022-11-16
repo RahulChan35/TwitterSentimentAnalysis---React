@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-left: 50px;
+}
+
+.header2{
+    font-size: 25px;
+    margin-left: 10px;
+    display: inline;
+    margin-left: 0px;
+}
+
+
+.header1{
+    font-size: 35px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.nav-item{
+    margin-top: 10px;
+}
+
+.btn-container{
+    margin-left: 650px;
+}
+
+.btn{
+    display: inline;
+    width: 150px;
+}
+
+.btn4:hover{
+    color: white;
+    background-color: darkgreen;
+}
+
+.message{
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #1da1f2;
+}
+
+.carImg{
+    width: 800px;
+    height: 800px;
+    margin-top: 70px;
+}
+
+.stage {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    padding: 15px;
+    width: 245px;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+

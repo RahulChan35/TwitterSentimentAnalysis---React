@@ -1,0 +1,71 @@
+.form{
+    width: 600px;
+    height: 420px;
+    background-color: #1da1f2;
+    padding: 20px;
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+.input{
+    width: 500px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+.underline{
+    width: 300px;
+    height: 5px;
+    margin-left: 605px;
+    background-color: #1da1f2;
+}
+
+.label{
+    font-size: 20px;
+    color: white;
+}
+
+.btn3{
+    color: #1da1f2;
+    background-color: white;
+    margin-left: 230px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.back{
+    color: red;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 5px; 
+    width: 100px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #1da1f2;
+}
+
+.back:hover{
+    color: white;
+    background-color: red;
+}
+
+.tweets{
+    margin-left: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tweets>p{
+    font-size: 25px;
+}
+
